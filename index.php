@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productrunt.com.br</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,7 +33,7 @@
         </br>
         <div class="w50 descricao">
             <h2>Melhore a comunicação com seu cliente e time.</h2>
-            <p>Consultoria especializada em startups,empresas,principalmente pessoas.</p>
+            <p class="pdescricao">Consultoria especializada em startups,empresas,principalmente pessoas.</p>
             <a target="_blank" href="#">Ver Demostração</a>
         </div>
         <!--w50_-->
@@ -119,9 +119,12 @@
 </section>
 <!--section-time-->
 <section class="depoimentos">
+    <div class="center">
     <h1>Depoimentos</h1>
-    <p>A citação é um dos primeiros tipos de depoimentos (e um dos mais fáceis de se conseguir). Surgindo primeiramente nos jornais, atualmente as citações são comuns em páginas de produtos.
+    <img src="img/autor.jpg">
+    <p>"A citação é um dos primeiros tipos de depoimentos (e um dos mais fáceis de se conseguir). Surgindo primeiramente nos jornais, atualmente as citações são comuns em páginas de produtos."
     </p>
+  </div>  
 </section>
 <!--depoimentos section-->
 <footer>
@@ -169,7 +172,6 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-
     })
 </script>
 
