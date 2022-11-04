@@ -25,9 +25,18 @@
         </header>
         <ul class="menu-desktop">
             <li><a href="#"> Inicio </a></li>
-            <li><a href="#"> Sobre </a></li>
-            <li><a href="#"> Contato </a></li>
+            <li><a href="sobre.php"> Sobre </a></li>
+            <li><a href="contato.php"> Contato </a></li>
         </ul>
+        <div class="menu-mobile">
+        <i class="fa-solid fa-bars"></i>
+            <ul>
+            <li><a href="#"> Inicio </a></li>
+            <li><a href="sobre.php"> Sobre </a></li>
+            <li><a href="contato.php"> Contato </a></li>
+            </ul>
+        </div>
+
         <div class="clear"></div>
         </br>
         </br>
@@ -106,6 +115,7 @@
         <div class="w50 time-descricao">
             <h2>Um Time experiente,comunicador e coesco.</h2>
             <p>Trabalhar em equipe é um desafio que traz muitas recompensas. Mentes diferentes conectadas para alcançar o mesmo objeto, possuem mais chances de vitória. Para criar um ambiente de trabalho coeso e com muita harmonia, </p>
+            <br>
             <p>selecionamos as melhores frases de equipe.
              Confira e leve a motivação necessária para o seu time continuar batendo as metas e ter ótimos resultados!</p>
         </div>
@@ -121,12 +131,22 @@
 <section class="depoimentos">
     <div class="center">
     <h1>Depoimentos</h1>
-    <img src="img/autor.jpg">
+    <img src="img/autor2.jpg">
     <p>"A citação é um dos primeiros tipos de depoimentos (e um dos mais fáceis de se conseguir). Surgindo primeiramente nos jornais, atualmente as citações são comuns em páginas de produtos."
+    
     </p>
   </div>  
 </section>
 <!--depoimentos section-->
+<section class="metodologia">
+    <div class="center">
+    <h2>Conheça nossa metodologia</h2>
+    <p>O que acha de fazermos o que mais gostamos de fazer? Conversar!<br>
+    Entre em contato por e-mail ou telefone.
+   </p>
+    <a href="#">Entrar em Contato</a>
+    </div>
+</section><!--metodologia-->
 <footer>
     <div class="center">
         <ul>
@@ -173,6 +193,14 @@
         autoplay: true,
         autoplaySpeed: 2000,
     })
+
+    //menu Humburger codigo js abaixo para abrir
+
+    $('.menu-mobile i').click(function(){
+    $('.menu-mobile').find('ul').slideToggle();
+});
+
+
 </script>
 
 </body>

@@ -85,6 +85,52 @@ section.topo {
     cursor: pointer;
 }
 
+/*Menu Mobile*/
+
+.menu-mobile{
+    float: right;
+}
+
+.menu-mobile i {
+    font-size: 27px;
+    color: white;
+    cursor: pointer;
+}
+.menu-mobile ul{
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    width: 100%;
+    display: none;
+ 
+
+   }
+
+.menu-mobile li{
+    background: white;
+    width: 100%;
+    border: 1px solid  #202020;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+.menu-mobile a{
+    text-decoration: none;
+    color: #000;
+    background-color: aliceblue;
+    display: block;
+  
+}
+
+.menu-mobile a:hover{
+    background-color: #0652DD;
+}
+
+/*menu mobile */
+
+
 .time-imagem img {
     max-width: 100%;
 }
@@ -169,7 +215,6 @@ section.time p {
     padding-right: 30px;
     font-size: 15px;
     font-weight: normal;
-
 }
 
 section.depoimentos {
@@ -180,22 +225,17 @@ section.depoimentos {
     font-family: 'Roboto';
     padding-top: 60px;
     text-align: center;
-   
-    
 }
 
 section.depoimentos h1{
     padding-bottom: 15px;
 }
 
-
-
 section.depoimentos p {
     opacity: 0.6;
-    font-size: 22px;
-    padding-top: 10px;
+    font-size: 20px;
+    padding-top: 8px;
     font-weight: normal;
-    
 
 }
 
@@ -209,6 +249,58 @@ section.depoimentos img{
     width: 65px;
     height: 65px;
     border-radius: 50%;
+    
+}
+
+/*metodologia*/
+
+section.metodologia{
+    
+    max-width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px;
+    border-top: 4px solid #FFC312;
+    position: relative;
+    z-index: 10;
+    top: -40px;
+    box-shadow: 10px 15px 50px 0 rgb(0, 0, 0, 0.07);
+
+}
+
+section.metodologia h2{
+
+    color: rgb(41, 41, 41);
+    padding-bottom: 15px;
+
+}
+
+section.metodologia p{
+
+    color:#b4b4b4;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 40px;
+    line-height: 32px;
+
+}
+
+section.metodologia a{
+    background: #0e5ed4;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    border-radius: 7px;
+    padding: 11px 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+section.metodologia a:hover{
+    background: #3378fa;
+    transition: 0.4s;
+
 }
 
 
@@ -224,6 +316,7 @@ footer {
     height: 100%;
     color: white;
     letter-spacing: 2px;
+    
 }
 footer i {
     opacity: 0.6;
@@ -252,7 +345,6 @@ footer i:hover {
     font-size: 16px;
     letter-spacing: 3px;
     text-shadow: 1px 1px 1px #000;
-
 }
 
 .header-social-media ul li a:hover {
@@ -261,8 +353,133 @@ footer i:hover {
     color: #5b94ff;
 }
 
+/*Pagina sobre*/
+
+section.equipe{
+    padding-top: 45px;
+}
+
+section.equipe h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+    max-width: 77%;
+}
+
+section.equipe p{
+ color: #464646;
+ font-size: 17px;
+ text-align: left;
+ word-spacing: 2px;
+ max-width: 72%;
+ padding-bottom: 40px;
+}
+
+section.equipe img{
+    float: right;
+    max-width: 93%;
+    box-shadow: 8px 13px 13px  rgb(199, 199, 199);
+}
+
+/*seção imagens de lado pagina sobre */
+
+section.sobre-imagens {
+  padding: 80px 0 ;
+  background-color: #f3f3f3;
+}
+
+section.sobre-imagens > .center{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-imagens img{
+    max-width: 95%;
+    box-shadow: 10px 17px 17px  rgb(199, 199, 199);
+}
 
 
+/*fim pagina sobre*/
+
+/*contato*/
+
+section.contato{
+    padding: 40px 0 ;
+}
+
+.contato-info h2{
+    color: #2c2c2c;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.contato-info p{
+    color: #505050;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+
+div#mapa{
+    position:relative;
+    left: 0;
+    top: 0;
+    width: 90%;
+    height: 60%;
+    background-color: #cfcfcf;
+}
+
+.contato-form{padding: 0 30px;margin-top: 40px;}
+
+.contato-form input[type=text]{
+    width: 95%;
+    margin-bottom: 15px;
+    padding: 10px;
+    height: 48px;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+}
+.contato-form select{
+    width: 95%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #5c5c5c;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+}
+
+.contato-form input[type=submit]{
+    padding: 13px;
+    background-color:#043fac;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+    border: none;
+    float: left;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contato-form input[type=submit]:hover{
+
+    background-color:#5b94ff;
+    color: white;
+    transition: 0.4s;
+ 
+   
+}
+
+.contato-form textarea{
+    width: 95%;
+    height: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #5c5c5c;
+    border: 1px solid #e3e3e3;
+    box-shadow: 0 2px 4px 0 rgba(92, 99, 110, 0.1);
+
+}
 
 /*MEDIA QUERES*/
 
@@ -275,5 +492,27 @@ footer i:hover {
         max-width: 70%;
         padding-top: 120px;
     }
+    .menu-desktop{
+        display: none;
+    }
+    
+    .google-maps{
+        display: flex;
+        align-items: left;  
+        justify-content: left;
+        padding-top: 80px;  
+    }
+    .contato-form textarea{
+        width: 95%;
+        height: 100px;
+        margin-bottom: 10px;
+        
+    }
+
 }
+@media (min-width: 600px) {
+    .menu-mobile{display: none;}   
+      
+}
+
 
