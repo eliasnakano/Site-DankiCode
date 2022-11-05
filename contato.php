@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,36 +40,34 @@
 </section>
 <section class="contato">
     <div class="center">
-        <div class="w50 contato-info">
+        <div class="contato-info">
             <h2>A mais importante,<br>Primeira conversa.</h2>
             <p><b>Telefone:</b>+55 48 9999-9999 </p>
             <p><b>E-mail:</b>contato@produto.com.br</p>
             <p>Endereço:1600 Amphitheatre Pkwy <br>
-              Mountain View , CA 94043, EUA </p>  
-              
-              <div class="google-maps">
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4023.4292404734697!2d-37.536649660134586!3d-7.586642918678427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1667582315874!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+                Mountain View , CA 94043, EUA </p>
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4023.4292404734697!2d-37.536649660134586!3d-7.586642918678427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1667582315874!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-         
-            <!--mapa-->
-        </div><!--center-->
-        <!--W50-->
-        <div class="w50 contato-form">
-            <form>
-                <input type="text" placeholder="Nome"></input>
-                <input type="text" placeholder="Email"></input>
-                <select name="select">
-                    <option value="valor1">Valor 1</option>
-                    <option value="valor2" selected>Valor 2</option>
-                    <option value="valor3">Valor 3</option>
-                </select>
-                <textarea placeholder="Fale mais da sua nessecidade"></textarea>
-            </form>
-            <input type="submit" value="Enviar formulário">
         </div>
-        <!--contato-fo-->
-        <div class="clear"></div>
+    </div>
+    <!--center-->
+    <!--W50-->
+    <div class="contato-form">
+        <form>
+            <input type="text" placeholder="Nome"></input>
+            <input type="text" placeholder="Email"></input>
+            <select name="select">
+                <option value="valor1">Valor 1</option>
+                <option value="valor2" selected>Valor 2</option>
+                <option value="valor3">Valor 3</option>
+            </select>
+            <textarea placeholder="Fale mais da sua nessecidade"></textarea>
+        </form>
+        <input type="submit" value="Enviar formulário">
+    </div>
+    <!--contato-fo-->
+    <div class="clear"></div>
     </div>
     <!--CENTER-->
 </section>
@@ -82,7 +79,6 @@
             <i>&nbsp;Email:productrunt@hotmail.com &nbsp;</i>
             <i>&nbsp;Telefone:9999-9999</i>
         </ul>
-
         <div class="header-social-media">
             <ul>
                 <li>
@@ -111,18 +107,12 @@
                 <img src="./img/logo-footer.png">
             </div>
         </div>
-
     </div>
     <!--center-->
-    <div class="clear"></div>
 </footer>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 <script src="slick/slick.js"></script>
-
-
-
 <script>
-
     //menu Humburger codigo js abaixo para abrir
 
     $('.menu-mobile i').click(function() {

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -193,16 +192,11 @@
         autoplay: true,
         autoplaySpeed: 2000,
     })
-
     //menu Humburger codigo js abaixo para abrir
 
     $('.menu-mobile i').click(function(){
     $('.menu-mobile').find('ul').slideToggle();
 });
-
-
 </script>
-
 </body>
-
 </html>

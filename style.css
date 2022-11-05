@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -9,7 +10,7 @@ body {
 
 /*CLASSES AUXILIADORAS */
 .center {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -21,6 +22,7 @@ body {
 .w50 {
     float: left;
     width: 50%;
+    padding: 0 15px;
 }
 
 /*CLASSES AUXILIADORAS */
@@ -104,8 +106,7 @@ section.topo {
     width: 100%;
     display: none;
  
-
-   }
+}
 
 .menu-mobile li{
     background: white;
@@ -397,7 +398,6 @@ section.sobre-imagens > .center{
     box-shadow: 10px 17px 17px  rgb(199, 199, 199);
 }
 
-
 /*fim pagina sobre*/
 
 /*contato*/
@@ -418,7 +418,6 @@ section.contato{
     font-size: 15px;
     margin-bottom: 8px;
 }
-
 
 div#mapa{
     position:relative;
@@ -481,6 +480,13 @@ div#mapa{
 
 }
 
+.contato{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 /*MEDIA QUERES*/
 
 @media (max-width: 600px) {
@@ -494,19 +500,6 @@ div#mapa{
     }
     .menu-desktop{
         display: none;
-    }
-    
-    .google-maps{
-        display: flex;
-        align-items: left;  
-        justify-content: left;
-        padding-top: 80px;  
-    }
-    .contato-form textarea{
-        width: 95%;
-        height: 100px;
-        margin-bottom: 10px;
-        
     }
 
 }
